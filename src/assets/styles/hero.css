@@ -1,0 +1,33 @@
+.hero-container{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/image1.jpg');
+    display:flex;
+    align-items: center;
+}
+.hero-text{
+    width:400px;
+    margin-left: 180px;
+}
+.hero-text h3{
+    font-size: 22px;
+    font-weight: lighter;
+}
+.hero-text p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.hero-btns button{
+    margin-right: 5px;
+}
+.hero-btns button:nth-child(1){
+    background-color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+}
+.hero-btns button:nth-child(2){
+    background-color: transparent;
+    border: 2px solid var(--color-orange);
+}
